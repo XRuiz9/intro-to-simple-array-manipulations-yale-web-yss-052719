@@ -23,8 +23,8 @@ end
 
 def shift_with_args(array)
   shifted = []
-  shifted.unshift(array.shift)
-  shifted.unshift(array.shift)
+  shifted << (array.shift)
+  shifted << (array.shift)
   shifted
 end
 
