@@ -15,3 +15,4 @@ def pop_with_args(array)
   popped << array.pop
   popped << array.pop
   popped
+end
