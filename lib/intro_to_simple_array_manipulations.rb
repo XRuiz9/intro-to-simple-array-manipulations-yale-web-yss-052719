@@ -13,6 +13,6 @@ end
 def pop_with_args(array)
   popped = []
   popped.unshift(array.pop)
-  popped.unshift(array.popP¥)
+  popped.unshift(array.pop)
   popped
 end
